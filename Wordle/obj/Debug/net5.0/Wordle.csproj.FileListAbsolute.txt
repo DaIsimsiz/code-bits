@@ -1,0 +1,32 @@
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.exe
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.deps.json
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.runtimeconfig.json
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.runtimeconfig.dev.json
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.dll
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\ref\Wordle.dll
+C:\Users\KNTS\Desktop\Wordle\bin\Debug\net5.0\Wordle.pdb
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.csprojAssemblyReference.cache
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.AssemblyInfoInputs.cache
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.AssemblyInfo.cs
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.dll
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\ref\Wordle.dll
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.pdb
+C:\Users\KNTS\Desktop\Wordle\obj\Debug\net5.0\Wordle.genruntimeconfig.cache
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.exe
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.deps.json
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.runtimeconfig.json
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.runtimeconfig.dev.json
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.dll
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\ref\Wordle.dll
+C:\Users\KNTS\Desktop\Code Bits\wordle\bin\Debug\net5.0\Wordle.pdb
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.csprojAssemblyReference.cache
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.AssemblyInfoInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.AssemblyInfo.cs
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.dll
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\ref\Wordle.dll
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.pdb
+C:\Users\KNTS\Desktop\Code Bits\wordle\obj\Debug\net5.0\Wordle.genruntimeconfig.cache
