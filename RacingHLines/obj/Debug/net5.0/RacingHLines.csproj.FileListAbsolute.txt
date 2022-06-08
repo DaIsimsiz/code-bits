@@ -1,0 +1,16 @@
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.csprojAssemblyReference.cache
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.AssemblyInfoInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.AssemblyInfo.cs
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.csproj.CoreCompileInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.exe
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.deps.json
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.runtimeconfig.json
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.runtimeconfig.dev.json
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.dll
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\ref\RacingHLines.dll
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\bin\Debug\net5.0\RacingHLines.pdb
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.dll
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\ref\RacingHLines.dll
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.pdb
+C:\Users\KNTS\Desktop\Code Bits\RacingHLines\obj\Debug\net5.0\RacingHLines.genruntimeconfig.cache

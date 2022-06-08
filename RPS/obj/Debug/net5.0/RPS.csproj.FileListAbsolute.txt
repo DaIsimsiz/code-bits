@@ -1,0 +1,16 @@
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.csprojAssemblyReference.cache
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.AssemblyInfoInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.AssemblyInfo.cs
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.csproj.CoreCompileInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.exe
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.deps.json
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.runtimeconfig.json
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.runtimeconfig.dev.json
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.dll
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\ref\RPS.dll
+C:\Users\KNTS\Desktop\Code Bits\RPS\bin\Debug\net5.0\RPS.pdb
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.dll
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\ref\RPS.dll
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.pdb
+C:\Users\KNTS\Desktop\Code Bits\RPS\obj\Debug\net5.0\RPS.genruntimeconfig.cache

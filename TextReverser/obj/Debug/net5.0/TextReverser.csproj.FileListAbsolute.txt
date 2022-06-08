@@ -1,0 +1,16 @@
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.exe
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.deps.json
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.runtimeconfig.json
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.runtimeconfig.dev.json
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.dll
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\ref\TextReverser.dll
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\bin\Debug\net5.0\TextReverser.pdb
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.csprojAssemblyReference.cache
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.AssemblyInfoInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.AssemblyInfo.cs
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.csproj.CoreCompileInputs.cache
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.dll
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\ref\TextReverser.dll
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.pdb
+C:\Users\KNTS\Desktop\Code Bits\TextReverser\obj\Debug\net5.0\TextReverser.genruntimeconfig.cache
