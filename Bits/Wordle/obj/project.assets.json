@@ -1,43 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\KNTS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Muhammet Emin Özgür\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KNTS\\Desktop\\Code Bits\\wordle\\Wordle.csproj",
-      "projectName": "Wordle",
-      "projectPath": "C:\\Users\\KNTS\\Desktop\\Code Bits\\wordle\\Wordle.csproj",
-      "packagesPath": "C:\\Users\\KNTS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KNTS\\Desktop\\Code Bits\\wordle\\obj\\",
+      "projectUniqueName": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\code-bits\\bits\\wordle\\wordle.csproj",
+      "projectName": "wordle",
+      "projectPath": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\code-bits\\bits\\wordle\\wordle.csproj",
+      "packagesPath": "C:\\Users\\Muhammet Emin Özgür\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\code-bits\\bits\\wordle\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KNTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Muhammet Emin Özgür\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.emzi0767.com/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -48,15 +41,16 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -65,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,66 +1,59 @@
-﻿using System;
-using System.Threading;
+﻿//Post rewrite message
+//
+//The previous code was over-complicated, now it's much cleaner.
 
-namespace RPS
+class Program
 {
-    class Program
+
+    static void Main()
     {
-        static void Main()
-        {
-            Random R = new Random();    //Declaring this from the beginning so we can pick random moves later on for the PC!
-            int win = 0;                //Integer to keep track of wins
-            int lose = 0;               //Integer to keep track of loses
-            int draw = 0;               //Integer to keep track of draws
-            int aiMoveN;                //Integer to keep track of PC's current move
-            string aiMove;              //String to convert numerical representation of the move to a string
-            string input;               //String to keep track of user's current move
+        int win, lose, draw;
+        win = lose = draw = 0;
+
+        int pc;
+        int player;
+
+        string input;
+        string[] moves = {"r","p","s"};
+
+        string[] rps = {"Rock", "Paper", "Scissors"};
             
-            while(true)                                                                         //Infinite loop to keep the game going until the console is closed
-            {
-                while(true)                                                                     //Another loop to keep asking for an input until we get one we can accept
-                {
-                    Console.Clear();
-                    Console.WriteLine("Make a move!\n\nR (Rock) - P (Paper) - S (Scissors)");
-                    input = Console.ReadKey().KeyChar.ToString().ToLower();                     //We get the key user presses, convert it to a character, then to a string, and then we turn it into it's lowercase form to avoid troubles.
-
-                    if(input == "r" || input == "p" || input == "s")                            //We check if the input was 'R', 'P' or 'S'
-                    {
-                        if(input == "r")       {input = "Rock";}
-                        else if(input == "p")  {input = "Paper";}                               //Swapping the letter with the word
-                        else                   {input = "Scissors";}
-                        break;
-                    }
-                }
-
+        while(true)
+        {
+            while(true) {
                 Console.Clear();
-                aiMoveN = R.Next(3);
+                Console.WriteLine("Rock = R\nPaper = P\nScissors = S\n\nPick one!");
 
-                if(aiMoveN == 0)       {aiMove = "Rock";}
-                else if(aiMoveN == 1)  {aiMove = "Paper";}                                      //Doing the same for user's move
-                else                   {aiMove = "Scissors";}
+                #pragma warning disable //silences the warning in here mentioning that "Console.ReadLine()" could be null
+                input = Console.ReadLine().ToLower();
+                #pragma warning restore
 
-                if(input == aiMove)                                                             //Draw case
-                {
-                    Console.WriteLine("Draw!\n\n\nYour move: {0}\nMy move: {0}", input);
-                    draw++;
-                }
-
-                                                                                                //User's lose case
-                else if(input == "Rock" && aiMove == "Paper" || input == "Paper" && aiMove == "Scissors" || input == "Scissors" && aiMove == "Rock")
-                {
-                    Console.WriteLine("I win!\n\n\nYour move: {0}\nMy move: {1}", input, aiMove);
-                    lose++;
-                }
-
-                else                                                                            //User's win case
-                {
-                    Console.WriteLine("You win!\n\n\nYour move: {0}\nMy move: {1}", input, aiMove);
-                    win++;
-                }
-
-                Console.WriteLine("\nTotal games: {0}\nWins: {1}", win + lose + draw, win);
-                Thread.Sleep(2500);                                                              //Small delay
+                if(moves.Contains(input)) break;
             }
+
+            if(input == "r") player = 0;
+            else if(input == "p") player = 1;
+            else player = 2;
+                
+            pc = new Random().Next(3);
+
+            //    rock = 0
+            //   paper = 1
+            //scissors = 2
+
+            if(player == pc) {
+                draw++;
+                Console.WriteLine("\nBoth players chose {0}, it's a draw!\nWins: {1} - Losses: {2} - Draws: {3}\nTotal games: {4}", rps[player], win, lose, draw, win+lose+draw);
+            }
+            else if(player < pc || player == pc + 2) {
+                win++;
+                Console.WriteLine("\nYou: {0}\nPC: {1}\nYou've won!\nWins: {2} - Losses: {3} - Draws: {4}\nTotal games: {5}", rps[player], rps[pc], win, lose, draw, win+lose+draw);
+            }
+            else{
+                lose++;
+                Console.WriteLine("\nYou: {0}\nPC: {1}\nYou've lost.\nWins: {2} - Losses: {3} - Draws: {4}\nTotal games: {5}", rps[player], rps[pc], win, lose, draw, win+lose+draw);
+            }
+            Thread.Sleep(2500);
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\bin\Debug\net7.0\wordle.exe
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\bin\Debug\net7.0\wordle.deps.json
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\bin\Debug\net7.0\wordle.runtimeconfig.json
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\bin\Debug\net7.0\wordle.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\bin\Debug\net7.0\wordle.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.csproj.AssemblyReference.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.AssemblyInfoInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.AssemblyInfo.cs
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\refint\wordle.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\wordle.genruntimeconfig.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\wordle\obj\Debug\net7.0\ref\wordle.dll

@@ -1,141 +1,116 @@
-﻿//////////////////////////
-/////////WARNING!/////////
-//////////////////////////
-//THIS CODE WILL NOT WORK IF YOU DON'T HAVE A WORDS FILE WITH AT LEAST 1 WORD IN IT!
-using System;
-using System.IO;     //Used to access the words file
-using System.Linq;   //Used to count letters in words
+﻿//Post rewrite message
+//
+//Basically the same code, just a bit more clean.
 
-namespace Wordle
+public class Program
 {
-    public class Program
+    public enum LetterStatus
     {
-        public static void Main()
+        Wrong,
+        WrongPos,
+        Correct
+    }
+
+    public static void Main()
+    {
+        string path = "words.txt";
+        int attempts = 6;
+
+        string[] words = File.ReadAllLines(path).Select(x => x.ToLower()).ToArray();
+        string word = words[new Random().Next(words.Length)];
+
+        string input = "";
+
+        for(int i = 0;i < attempts;i++)
         {
-            Random R = new Random();
-            string path = "words.txt";  //Path for a file in which your words are written
-            int chances = 6;            //Amount of guesses uses get
-
-            //Read the file and choose a random word
-            string[] words = File.ReadAllLines(path).Select(x => x.ToLowerInvariant()).ToArray();
-            string word = words[R.Next(words.Length)].ToLower();
-
-            string guess;
-
-            //This is where the guesses happen
-            for(int i = 0;i < chances;i++) {
-                while(true)
-                {
-                    try
-                    {
-                        //Makes sure the guess is a word included in the file
-                        guess = Console.ReadLine().ToLower();
-                        if(!Array.Exists(words, element => element == guess)) /**/throw new Exception();/*Replace this to change what happens when the guess is not a word*/
-                        break;
-                    }
-                    catch(Exception) {}
-                }
-                //Analyzes the guess and writes the results
-                WriteResults(CheckLetters(word, guess), guess);
-
-                //Adds a new line to separate the guesses
-                Console.WriteLine(Environment.NewLine);
-            }
-            Console.WriteLine("You lose!");
-            Console.WriteLine($"The word was {word}");
-        }
-        
-        public enum LetterStatus
-        {
-            Wrong,          // "This letter is not in the word."
-            WrongPos,       // "This letter is in the word, but not in this position."
-            Correct         // "This letter is in the word in this position."
-        }
-
-        public static LetterStatus[] CheckLetters(string word, string guess)
-        {
-            var result = new LetterStatus[5];
-
-            for (int i = 0; i < guess.Length; i++)
+            //Validate guess
+            while(true)
             {
-                //If the letters are the same, mark it as CORRECT
-                if (word[i] == guess[i])
+                try
                 {
-                    result[i] = LetterStatus.Correct;
+                    #pragma warning disable //shut up
+                    input = Console.ReadLine().ToLower();
+                    #pragma warning restore
+                    if(!Array.Exists(words, x => x == input)) throw new Exception();
+                    break;
                 }
-
-                //Otherwise, check if the letter is in the word
-                else if (word.Contains(guess[i]))
+                catch(Exception)
                 {
-                    //If there are more than 1 occurances of the same letter
-                    if(guess.Count(f => (f == guess[i])) > 1) {
+                    Console.WriteLine("Invalid input!");
+                }
+            }
 
-                        //If the guess has more of the letter than the word
-                        if(word.Count(f => (f == guess[i])) < guess.Count(f => (f == guess[i]))) {
+            DumpResults(Compare(word,input), input);
+            Console.WriteLine();
 
-                            //Check if it is the first occurance, we can mark only one of them as WRONG POSITION
-                            if(guess.IndexOf(guess[i]) < i) continue;
+            if(input == word) {
+                Console.WriteLine("You've guessed the word!");
+                break;
+            }
+        }
+        if(input != word) Console.WriteLine("The word was {0}", word);
+        Console.ReadKey();
+    }
 
-                            //Otherwise, mark it as WRONG POSITION
-                            else{result[i] = LetterStatus.WrongPos;}
-                        }
-                        
-                        //Otherwise, if they have the same amount, mark both as WRONG POSITION
-                        else if(word.Count(f => (f == guess[i])) == guess.Count(f => (f == guess[i]))) {
-                            result[i] = LetterStatus.WrongPos;
-                        }
 
-                        //Throw a new exception, I have no plan B for this...
-                        else{throw new Exception();}
+    public static LetterStatus[] Compare(string word, string input)
+    {
+        LetterStatus[] result = new LetterStatus[word.ToCharArray().Length];
+
+            for(int i = 0; i < input.Length; i++)
+            {
+                if (word[i] == input[i]) result[i] = LetterStatus.Correct;
+
+                else if (word.Contains(input[i]))
+                {
+                    if(input.Count(f => (f == input[i])) > 1 && word.Count(f => (f == input[i])) < input.Count(f => (f == input[i]))) {
+
+                        if(checkValidity(word, input, i)) result[i] = LetterStatus.WrongPos;
+
+                        else result[i] = LetterStatus.Wrong;
                     }
 
-                    //Otherwise, mark it as WRONG POSITION
                     else{result[i] = LetterStatus.WrongPos;}
                 }
 
-                //Otherwise, mark it as WRONG
-                else
-                {
-                    result[i] = LetterStatus.Wrong;
-                }
+                else result[i] = LetterStatus.Wrong;
             }
 
-            //Send the result back
             return result;
-        }
+    }
 
-        public static void WriteResults(LetterStatus[] result, string guess)
+    public static bool checkValidity(string word, string input, int i)
+    {
+        //I encourage you to try to reverse-engineer the purpose of this
+        int max = word.Count(f => (f == input[i]));
+        int found = 0;
+
+        for(int x = 0;x < i;x++)
         {
-            //This is used to keep track of which letter we are at
-            int x = 0;
+            if(input[x] == input[i]) found++;
+            if(found == max) return false;
+        }
+        return true;
+    }
 
-            //Writes each letters with their appropriate color!
-            //        Correct = Green
-            // Wrong Position = Yellow
-            //          Wrong = Dark Gray
-            foreach(LetterStatus i in result) {
-                try
-                {
-                    if(i == LetterStatus.Correct) {                     //Correct case
-                        Console.ForegroundColor = ConsoleColor.Green;
-                    }
-                    else if(i == LetterStatus.WrongPos) {               //Wrong position case
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                    }
-                    else{                                               //Wrong case
-                        Console.ForegroundColor = ConsoleColor.DarkGray;
-                    }
+    public static void DumpResults(LetterStatus[] results, string input)
+    {
+        for(int i = 0;i < results.Length;i++)
+        {
+            try
+            {
+                if(results[i] == LetterStatus.Correct) Console.ForegroundColor = ConsoleColor.Green;
+                else if(results[i] == LetterStatus.WrongPos) Console.ForegroundColor = ConsoleColor.Yellow;
+                else Console.ForegroundColor = ConsoleColor.DarkGray;
 
-                    //Writes the letter
-                    Console.Write(guess.ToCharArray()[x]);
-                    
-                    //We increase the number to change to the next letter
-                    x++;
-                }
-                catch(IndexOutOfRangeException) {}
+                Console.Write(input.ToCharArray()[i]);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+                //Just in case
             }
 
-            //Resets foreground (text) color
             Console.ForegroundColor = ConsoleColor.Gray;
         }
     }

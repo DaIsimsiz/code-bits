@@ -1,0 +1,15 @@
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\bin\Debug\net7.0\rps.exe
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\bin\Debug\net7.0\rps.deps.json
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\bin\Debug\net7.0\rps.runtimeconfig.json
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\bin\Debug\net7.0\rps.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\bin\Debug\net7.0\rps.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.csproj.AssemblyReference.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.AssemblyInfoInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.AssemblyInfo.cs
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\refint\rps.dll
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\rps.genruntimeconfig.cache
+C:\Users\Muhammet Emin Özgür\Desktop\code-bits\bits\rps\obj\Debug\net7.0\ref\rps.dll
