@@ -1,0 +1,15 @@
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\bin\Debug\net7.0\ShorsAlgorithm.exe
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\bin\Debug\net7.0\ShorsAlgorithm.deps.json
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\bin\Debug\net7.0\ShorsAlgorithm.runtimeconfig.json
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\bin\Debug\net7.0\ShorsAlgorithm.dll
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\bin\Debug\net7.0\ShorsAlgorithm.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.csproj.AssemblyReference.cache
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.AssemblyInfoInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.AssemblyInfo.cs
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.dll
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\refint\ShorsAlgorithm.dll
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.pdb
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ShorsAlgorithm.genruntimeconfig.cache
+C:\Users\Muhammet Emin Özgür\Desktop\Repos\code-bits\Bits\ShorsAlgorithm\obj\Debug\net7.0\ref\ShorsAlgorithm.dll

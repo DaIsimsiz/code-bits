@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\Wordle\\wordle.csproj",
-      "projectName": "wordle",
-      "projectPath": "c:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\Wordle\\wordle.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\ShorsAlgorithm\\ShorsAlgorithm.csproj",
+      "projectName": "ShorsAlgorithm",
+      "projectPath": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\ShorsAlgorithm\\ShorsAlgorithm.csproj",
       "packagesPath": "C:\\Users\\Muhammet Emin Özgür\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\Wordle\\obj\\",
+      "outputPath": "C:\\Users\\Muhammet Emin Özgür\\Desktop\\Repos\\code-bits\\Bits\\ShorsAlgorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
